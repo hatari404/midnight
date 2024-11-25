@@ -47,6 +47,10 @@ img {
   display: flex;
   justify-content: center;
 }
+.joke{
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 768px) {
   img {
     width: 30%;
