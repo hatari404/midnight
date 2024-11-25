@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>HTML + CSS</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
-    <form action="https://google.ru/">
-      <input type="text" />
-      <input type="submit" />
-    </form>
+      <h1>Image Gallery</h1>
     </header>
+    <article>
+      <div class="element">
+        <img src="https://picsum.photos/300/200?random=1" />
+        <img src="https://picsum.photos/300/200?random=2" />
+        <img src="https://picsum.photos/300/200?random=3" />
+        <img src="https://picsum.photos/300/200?random=4" />
+      </div>
+      <p class="buttonContainer">
+        <a href="/">
+          <button>Next Images</button>
+        </a>
+      </p>
+    </article>
     <footer>
-    <a href="https://github.com">GitHub</a>
+      <p class="myFooter">
+        Random image app by <strong>Torbina Alexandra</strong>
+      </p>
     </footer>
-    <script>
-      alert = "Hi, User!!!"
-    </script>
   </body>
 </html>
